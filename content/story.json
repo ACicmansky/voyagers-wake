@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "title": "Voyager's Wake",
+    "kicker": "A Cinematic Space Odyssey",
+    "subtitle": "Where gravity dies, legend begins",
+    "description": "A relentless camera plunge from Earth's thin blue veil to the very edge of the Sun's domain — 122 AU of pure visual violence.",
+    "style": "cinematic",
+    "ui": "folio",
+    "connectorSpan": 1.5,
+    "scrollSnap": true,
+    "snapThreshold": 120,
+    "connectorPlaybackRate": 0.7
+  },
+  "chapters": [
+    {
+      "id": "01-earth-orbit",
+      "label": "Earth Orbit",
+      "eyebrow": "CHAPTER 1",
+      "title": "THE BLUE MARBLE",
+      "subtitle": "Fragile. Finite. Ours.",
+      "copyPosition": "right",
+      "span": 5.5,
+      "linger": 0.5,
+      "paragraphs": [
+        "400 km up. The Pacific swallows the sun — a wall of incandescent copper detonating across 165 million square kilometers of black mirror.",
+        "ISS knifes through terminator at 7.66 km/s. Solar arrays glow like shattered glass. Below: typhoon eyes, copper rivers, the aneurysms of megacities pulsing in sodium light."
+      ],
+      "tags": [
+        "Earth",
+        "Terminator",
+        "ISS",
+        "Dawn"
+      ],
+      "still": "assets/images/scenes/01-earth-orbit.webp",
+      "clip": "assets/video/dives/01-earth-orbit.mp4"
+    },
+    {
+      "id": "02-moon-flyby",
+      "label": "Moon Flyby",
+      "eyebrow": "CHAPTER 2",
+      "title": "THE SILENT WITNESS",
+      "subtitle": "No wind. No water. No mercy.",
+      "copyPosition": "left",
+      "span": 5.5,
+      "linger": 0.5,
+      "paragraphs": [
+        "Far side rolls into view — a slaughterhouse of impacts. South Pole–Aitken: 2,500 km of cosmic violence, 8 km deep, 4.3 billion years fresh.",
+        "Regolith so fine it holds a bootprint for a million years. No atmosphere to erase. No life to mourn. Just rock remembering every blow."
+      ],
+      "tags": [
+        "Moon",
+        "Far Side",
+        "South Pole-Aitken",
+        "Regolith"
+      ],
+      "still": "assets/images/scenes/02-moon-flyby.webp",
+      "clip": "assets/video/dives/02-moon-flyby.mp4"
+    },
+    {
+      "id": "03-mars-approach",
+      "label": "Mars Approach",
+      "eyebrow": "CHAPTER 3",
+      "title": "THE RUST HORIZON",
+      "subtitle": "A corpse that once breathed.",
+      "copyPosition": "bottom",
+      "span": 5.5,
+      "linger": 0.5,
+      "paragraphs": [
+        "Olympus Mons: 22 km of shield volcano. Its caldera could swallow Manhattan. Flanks so shallow you'd walk into orbit.",
+        "Valles Marineris rips the equator — 4,000 km long, 7 km deep. The Grand Canyon is a drainage ditch by comparison.",
+        "Dust devils pirouette across Amazonis. The north pole cap retreats, exposing layered ice — climate history written in CO₂ and water."
+      ],
+      "tags": [
+        "Mars",
+        "Olympus Mons",
+        "Valles Marineris",
+        "Dust Devils"
+      ],
+      "still": "assets/images/scenes/03-mars-approach.webp",
+      "clip": "assets/video/dives/03-mars-approach.mp4"
+    },
+    {
+      "id": "04-asteroid-belt",
+      "label": "Asteroid Belt",
+      "eyebrow": "CHAPTER 4",
+      "title": "THE SHATTERED PLANET",
+      "subtitle": "Jupiter said no.",
+      "copyPosition": "center",
+      "span": 5.0,
+      "linger": 0.45,
+      "paragraphs": [
+        "Not a swarm. A void punctuated by betrayal. Millions of km between neighbors — you'd never see another from the surface.",
+        "Ceres: 940 km of differentiated world. Occator's faculae scream sodium carbonate — briny cryovolcanism in perpetual night.",
+        "Vesta's Rheasilvia basin: one impact blew 1% of its mass into space. HED meteorites on Earth are its ghosts."
+      ],
+      "tags": [
+        "Ceres",
+        "Vesta",
+        "Occator",
+        "Rheasilvia"
+      ],
+      "still": "assets/images/scenes/04-asteroid-belt.webp",
+      "clip": "assets/video/dives/04-asteroid-belt.mp4"
+    },
+    {
+      "id": "05-jupiter-system",
+      "label": "Jupiter System",
+      "eyebrow": "CHAPTER 5",
+      "title": "THE KING'S COURT",
+      "subtitle": "Pressure makes diamonds. Here it makes metal hydrogen.",
+      "copyPosition": "right",
+      "span": 6.0,
+      "linger": 0.55,
+      "paragraphs": [
+        "The Great Red Spot: anticyclone wider than Earth, raging 350+ years. Winds 430 km/h. Roots plunge 300 km — we just learned that.",
+        "Io: most volcanic body in the system. Tidal flexing melts its guts. Pele's plume arcs 300 km. Surface repaves itself in centuries.",
+        "Europa: chaos terrain, cycloidal ridges, a global ocean with more water than Earth. The ice shell flexes. Something swims below.",
+        "Ganymede: only moon with a magnetic field. Its own magnetosphere inside Jupiter's. Callisto: the oldest face in the solar system, crater-saturated, dead."
+      ],
+      "tags": [
+        "Great Red Spot",
+        "Io",
+        "Europa",
+        "Ganymede",
+        "Callisto"
+      ],
+      "still": "assets/images/scenes/05-jupiter-system.webp",
+      "clip": "assets/video/dives/05-jupiter-system.mp4"
+    },
+    {
+      "id": "06-saturn-rings",
+      "label": "Saturn Rings",
+      "eyebrow": "CHAPTER 6",
+      "title": "THE JEWEL BOX",
+      "subtitle": "A billion trillion diamonds. Ten meters thick.",
+      "copyPosition": "left",
+      "span": 6.0,
+      "linger": 0.55,
+      "paragraphs": [
+        "A-ring edge: Janus and Epimetheus swap orbits every 4 years, carving 15 km waves. Density waves spiral like vinyl grooves.",
+        "Cassini Division: Mimas' 2:1 resonance sweeps it clean. But it's not empty — ghost particles drift in the dark.",
+        "B-ring core: 99% pure water ice. Spokes — radial fingers of charged dust — levitate on magnetic fields, rotating with Saturn's 10.7-hour heartbeat.",
+        "F-ring: Prometheus and Pandora shepherd a braided rope of ice. Prometheus steals streamers every 68 days. Violence in slow motion."
+      ],
+      "tags": [
+        "A Ring",
+        "Cassini Division",
+        "B Ring",
+        "Spokes",
+        "F Ring",
+        "Shepherd Moons"
+      ],
+      "still": "assets/images/scenes/06-saturn-rings.webp",
+      "clip": "assets/video/dives/06-saturn-rings.mp4"
+    },
+    {
+      "id": "07-heliopause",
+      "label": "Heliopause",
+      "eyebrow": "CHAPTER 7",
+      "title": "THE FINAL SHORE",
+      "subtitle": "The Sun's last breath. The galaxy's first inhale.",
+      "copyPosition": "center",
+      "span": 7.0,
+      "linger": 0.7,
+      "paragraphs": [
+        "122 AU. Termination shock behind us — solar wind slammed from supersonic to subsonic in a cosmic hydraulic jump.",
+        "Heliosheath: magnetic foam, turbulence, the Sun's wind piling against the interstellar gale. Plasma density jumps 40×.",
+        "Voyager 1 crossed August 25, 2012. Voyager 2, November 5, 2018. 23 watts. 22 billion km. The signal arrives at 10⁻¹⁸ watts.",
+        "Beyond: pristine galactic plasma. Cold. Dense. Magnetic field draped around our bubble like wind over stone. We are outside. We are still talking."
+      ],
+      "tags": [
+        "Termination Shock",
+        "Heliosheath",
+        "Heliopause",
+        "Voyager 1",
+        "Voyager 2",
+        "Interstellar Medium"
+      ],
+      "still": "assets/images/scenes/07-heliopause.webp",
+      "clip": "assets/video/dives/07-heliopause.mp4"
+    }
+  ],
+  "connectors": [
+    "assets/video/connectors/01-earth-orbit-to-moon-flyby.mp4",
+    "assets/video/connectors/02-moon-flyby-to-mars-approach.mp4",
+    "assets/video/connectors/03-mars-approach-to-asteroid-belt.mp4",
+    "assets/video/connectors/04-asteroid-belt-to-jupiter-system.mp4",
+    "assets/video/connectors/05-jupiter-system-to-saturn-rings.mp4",
+    "assets/video/connectors/06-saturn-rings-to-heliopause.mp4"
+  ],
+  "sources": [
+    {
+      "label": "NASA Solar System Exploration",
+      "url": "https://solarsystem.nasa.gov"
+    },
+    {
+      "label": "JPL Voyager Mission Status",
+      "url": "https://voyager.jpl.nasa.gov"
+    },
+    {
+      "label": "ESA Planetary Science Archive",
+      "url": "https://archives.esac.esa.int/psa"
+    },
+    {
+      "label": "Cassini-Huygens Mission",
+      "url": "https://saturn.jpl.nasa.gov"
+    },
+    {
+      "label": "Juno Mission Data",
+      "url": "https://missionjuno.swri.edu"
+    }
+  ]
+}

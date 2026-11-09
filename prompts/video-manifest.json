@@ -1,0 +1,96 @@
+{
+  "model": "veo-2.0",
+  "aspect_ratio": "16:9",
+  "duration_seconds": 5,
+  "resolution": "720p",
+  "person_generation": "dont_allow",
+  "safety_filter_level": "block_some",
+  "target_width": 1280,
+  "target_height": 720,
+  "fps": 24,
+  "crf": 20,
+  "gop": 8,
+  "generate_audio": false,
+  "watermark": false,
+  "dives": [
+    {
+      "id": "01-earth-orbit",
+      "prompt": "prompts/video/dives/01-earth-orbit.txt",
+      "output": "assets/video/dives/01-earth-orbit.mp4"
+    },
+    {
+      "id": "02-moon-flyby",
+      "prompt": "prompts/video/dives/02-moon-flyby.txt",
+      "output": "assets/video/dives/02-moon-flyby.mp4"
+    },
+    {
+      "id": "03-mars-approach",
+      "prompt": "prompts/video/dives/03-mars-approach.txt",
+      "output": "assets/video/dives/03-mars-approach.mp4"
+    },
+    {
+      "id": "04-asteroid-belt",
+      "prompt": "prompts/video/dives/04-asteroid-belt.txt",
+      "output": "assets/video/dives/04-asteroid-belt.mp4"
+    },
+    {
+      "id": "05-jupiter-system",
+      "prompt": "prompts/video/dives/05-jupiter-system.txt",
+      "output": "assets/video/dives/05-jupiter-system.mp4"
+    },
+    {
+      "id": "06-saturn-rings",
+      "prompt": "prompts/video/dives/06-saturn-rings.txt",
+      "output": "assets/video/dives/06-saturn-rings.mp4"
+    },
+    {
+      "id": "07-heliopause",
+      "prompt": "prompts/video/dives/07-heliopause.txt",
+      "output": "assets/video/dives/07-heliopause.mp4"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "01-earth-orbit-to-moon-flyby",
+      "from": "01-earth-orbit",
+      "to": "02-moon-flyby",
+      "prompt": "prompts/video/connectors/01-earth-orbit-to-moon-flyby.txt",
+      "output": "assets/video/connectors/01-earth-orbit-to-moon-flyby.mp4"
+    },
+    {
+      "id": "02-moon-flyby-to-mars-approach",
+      "from": "02-moon-flyby",
+      "to": "03-mars-approach",
+      "prompt": "prompts/video/connectors/02-moon-flyby-to-mars-approach.txt",
+      "output": "assets/video/connectors/02-moon-flyby-to-mars-approach.mp4"
+    },
+    {
+      "id": "03-mars-approach-to-asteroid-belt",
+      "from": "03-mars-approach",
+      "to": "04-asteroid-belt",
+      "prompt": "prompts/video/connectors/03-mars-approach-to-asteroid-belt.txt",
+      "output": "assets/video/connectors/03-mars-approach-to-asteroid-belt.mp4"
+    },
+    {
+      "id": "04-asteroid-belt-to-jupiter-system",
+      "from": "04-asteroid-belt",
+      "to": "05-jupiter-system",
+      "prompt": "prompts/video/connectors/04-asteroid-belt-to-jupiter-system.txt",
+      "output": "assets/video/connectors/04-asteroid-belt-to-jupiter-system.mp4"
+    },
+    {
+      "id": "05-jupiter-system-to-saturn-rings",
+      "from": "05-jupiter-system",
+      "to": "06-saturn-rings",
+      "prompt": "prompts/video/connectors/05-jupiter-system-to-saturn-rings.txt",
+      "output": "assets/video/connectors/05-jupiter-system-to-saturn-rings.mp4"
+    },
+    {
+      "id": "06-saturn-rings-to-heliopause",
+      "from": "06-saturn-rings",
+      "to": "07-heliopause",
+      "prompt": "prompts/video/connectors/06-saturn-rings-to-heliopause.txt",
+      "output": "assets/video/connectors/06-saturn-rings-to-heliopause.mp4"
+    }
+  ]
+}
